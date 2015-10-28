@@ -1,0 +1,16 @@
+Package: fooR
+Type: Package
+Title: Single-function package to figure out why RcppArmadillo kills my packages
+Version: 0.1
+Date: 2015-10-28
+Authors@R: person("Suz", "Tolwinski-Ward", email = "suzski@gmail.com",
+          role = c("aut", "cre"))
+Description: Just a little example to send to stack overflow.
+License: GPL-2
+LazyData: TRUE
+Depends: R (>= 2.10)
+Imports:
+    Rcpp (>= 0.11.5),
+    RcppArmadillo
+LinkingTo:
+    Rcpp, RcppArmadillo
